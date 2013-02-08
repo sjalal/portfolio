@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>Shah Jalal</title>
+<meta charset="iso-8859-1">
+<link rel="stylesheet" href="styles/layout.css" type="text/css">
+
+
+<!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.4" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.4"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
+
+<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(".fancybox").fancybox();
+  });
+
+$(document).ready(function() {
+  $(".various").fancybox({
+    maxWidth  : 800,
+    maxHeight : 600,
+    fitToView : false,
+    width   : '70%',
+    height    : '70%',
+    autoSize  : false,
+    closeClick  : false,
+    openEffect  : 'none',
+    closeEffect : 'none'
+  });
+});
+
+</script>
+
+
+</head>
+<body>
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <h1>Amazing World of Shah</h1>
+  </header>
+</div>
+
+<div class="wrapper row2">
+  <div id="container" class="clear">
+    <div id="col1">
+      <h1>&lt;h1&gt; to &lt;h6&gt; - Headline Colour and Size Are All The Same</h1>
+      <img class="imgr" src="images/imgr.jpg" alt="" width="125" height="125">
+      <ul>
+        <li class="bold">List Item 1</li>
+        <li>List Item 2</li>
+        <li><a class="various fancybox.iframe" href="http://www.youtube.com/embed/ZvENRM1_1GY?rel=0">Checkout Nuhan's Pixar Car Collection</a></li>
+        <li>List Item 4</li>
+      </ul>
+      <p class="center">This text is aligned centre. Amazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of Shah.<a class="fancybox.iframe" href="#">This goes to iframe</a> Amazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of Shah.</p>
+    </div>
+    <div id="col2">
+      <ul class="nostart">
+        <li>This list Items has no style type</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+      </ul>
+      <p class="justify">This text is aligned left and right - &quot;Justified&quot;. Amazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of Shah..</p>
+      <img class="imgl" src="images/imgl.jpg" alt="" width="125" height="125">
+      <p class="right">This text is aligned to the right. Amazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of ShahAmazing World of Shah..</p>
+    </div>
+  </div>
+</div>
+
+<div class="wrapper row3">
+  <footer id="footer" class="clear">
+    <h1>Footer</h1>
+    <p class="fl_left">Copyright &copy; Shah Jalal 2013 - All Rights Reserved</p>
+   
+  </footer>
+</div>
+</body>
+</html>
